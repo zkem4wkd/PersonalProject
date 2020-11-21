@@ -23,7 +23,6 @@ public class WeightObject1 : MonoBehaviour
         {
             if (collision.GetComponent<WeightScript>().weight >= 1)
             {
-                this.GetComponent<AudioSource>().Play();
                 for (int i = 0; i < traps.Length; i++)
                 {
                     traps[i].SetActive(true);

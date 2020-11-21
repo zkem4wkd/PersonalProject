@@ -516,7 +516,7 @@ TextureImporter:
       name: 79_0_030_8_451-tile_4
       rect:
         serializedVersion: 2
-        x: 564
+        x: 544
         y: 1312
         width: 64
         height: 64
@@ -684,7 +684,7 @@ TextureImporter:
       name: 79_0_030_8_451-tile_12
       rect:
         serializedVersion: 2
-        x: 308
+        x: 288
         y: 1184
         width: 64
         height: 64
@@ -1314,7 +1314,7 @@ TextureImporter:
       name: 79_0_030_8_451-tile_42
       rect:
         serializedVersion: 2
-        x: 820
+        x: 800
         y: 800
         width: 64
         height: 64

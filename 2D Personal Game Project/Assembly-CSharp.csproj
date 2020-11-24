@@ -86,6 +86,7 @@
     <Compile Include="Assets\Script\Gimmick\ObjectScript\Cannon.cs" />
     <Compile Include="Assets\Script\Gimmick\ObjectScript\FireTrap.cs" />
     <Compile Include="Assets\Script\Gimmick\ObjectScript\GetStoneScript.cs" />
+    <Compile Include="Assets\Script\Gimmick\ObjectScript\KeyPortalScript.cs" />
     <Compile Include="Assets\Script\Gimmick\ObjectScript\KeyScript.cs" />
     <Compile Include="Assets\Script\Gimmick\ObjectScript\Lever.cs" />
     <Compile Include="Assets\Script\Gimmick\ObjectScript\OutOfWorld.cs" />
@@ -99,6 +100,7 @@
     <Compile Include="Assets\Script\Gimmick\ObjectScript\WeightObject.cs" />
     <Compile Include="Assets\Script\Gimmick\ObjectScript\WeightObject1.cs" />
     <Compile Include="Assets\Script\Gimmick\ObjectScript\WindStone.cs" />
+    <Compile Include="Assets\Script\Gimmick\ObjectScript\forestTree.cs" />
     <Compile Include="Assets\Script\Gimmick\WeightScript.cs" />
     <Compile Include="Assets\Script\Gimmick\WeightStatus.cs" />
     <Compile Include="Assets\Script\NPC\NpcStand.cs" />

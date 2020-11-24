@@ -18,6 +18,8 @@ TagManager:
   - cave
   - billage
   - BGM
+  - MoonKey
+  - StarKey
   layers:
   - Default
   - TransparentFX

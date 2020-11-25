@@ -6,6 +6,21 @@ public class StageSelect : MonoBehaviour
 {
     public GameObject[] maps;
     int i = 0;
+    public GameObject[] clear;
+    private void Start()
+    {
+        for (int i = 0; i < DataController.instance.gameData.Stage.Length; i++)
+        {
+            if(DataController.instance.gameData.Stage[i] == true)
+            {
+                clear[i].SetActive(true);
+            }
+            else
+            {
+                return;
+            }
+        }
+    }
     public void MapRightChange()
     {
         if (maps.Length <= i + 1)
@@ -21,7 +36,7 @@ public class StageSelect : MonoBehaviour
     }
     public void MapLeftChange()
     {
-        if (maps.Length > i + 1)
+        if (0 >= i)
         {
             return;
         }

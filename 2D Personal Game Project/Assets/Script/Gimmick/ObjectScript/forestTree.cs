@@ -10,7 +10,7 @@ public class forestTree : MonoBehaviour
         if(collision.CompareTag("Water"))
         {
             this.GetComponent<PlayableDirector>().Play();
-            Destroy(this.gameObject, 8f);
+            Destroy(this.gameObject, 5f);
         }
     }
 }

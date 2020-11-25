@@ -15,6 +15,14 @@ public class StagePortal : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Player"))
         {
+            if(nextScene.handle == 9)
+            {
+                gC.worldTime += 3;
+            }
+            else
+            {
+                gC.worldTime += 1;
+            }
             gC.Save();
             SceneManager.LoadScene(nextScene.handle);
         }

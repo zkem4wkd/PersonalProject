@@ -11,7 +11,9 @@ public class OutOfWorld : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        collision.transform.position = firstPos;
-
+        if(collision.CompareTag("Player"))
+        {
+            collision.transform.position = firstPos;
+        }
     }
 }

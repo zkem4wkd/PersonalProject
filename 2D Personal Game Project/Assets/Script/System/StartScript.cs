@@ -23,20 +23,5 @@ public class StartScript : MonoBehaviour
             }
             return;
         }
-        if (DataController.instance.gameData.npcQuest.Length < maxQuestNumber)
-        {
-            bool[] saveClear = new bool[DataController.instance.gameData.npcQuest.Length];
-            int minus = maxQuestNumber - DataController.instance.gameData.npcQuest.Length;
-            for (int i = 0; i < DataController.instance.gameData.npcQuest.Length; i++)
-            {
-                saveClear[i] = DataController.instance.gameData.npcQuest[i];
-            }
-            DataController.instance.gameData.npcQuest = new bool[maxQuestNumber];
-            for (int i = 0; i < maxQuestNumber - minus; i++)
-            {
-                DataController.instance.gameData.npcQuest[i] = saveClear[i];
-            }
-            return;
-        }
     }
 }

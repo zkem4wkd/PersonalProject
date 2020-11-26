@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Forest1-3.unity
     guid: 4b2296b4bac3e2e49a8d4b8a7ef8048c
+  - enabled: 1
+    path: Assets/Scenes/grassland1-1.unity
+    guid: 6ef30368cb06dcf499724272751005f4
   m_configObjects: {}

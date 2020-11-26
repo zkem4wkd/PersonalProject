@@ -88,6 +88,7 @@
     <Compile Include="Assets\Script\Gimmick\ObjectScript\KeyPortalScript.cs" />
     <Compile Include="Assets\Script\Gimmick\ObjectScript\KeyScript.cs" />
     <Compile Include="Assets\Script\Gimmick\ObjectScript\Lever.cs" />
+    <Compile Include="Assets\Script\Gimmick\ObjectScript\MoveGround.cs" />
     <Compile Include="Assets\Script\Gimmick\ObjectScript\OutOfWorld.cs" />
     <Compile Include="Assets\Script\Gimmick\ObjectScript\SamePuzzle.cs" />
     <Compile Include="Assets\Script\Gimmick\ObjectScript\SamePuzzleManager.cs" />
@@ -95,6 +96,7 @@
     <Compile Include="Assets\Script\Gimmick\ObjectScript\TeleportScript.cs" />
     <Compile Include="Assets\Script\Gimmick\ObjectScript\TowerScript.cs" />
     <Compile Include="Assets\Script\Gimmick\ObjectScript\TrampolineScript.cs" />
+    <Compile Include="Assets\Script\Gimmick\ObjectScript\TreeFire.cs" />
     <Compile Include="Assets\Script\Gimmick\ObjectScript\UpDraft.cs" />
     <Compile Include="Assets\Script\Gimmick\ObjectScript\WeightObject.cs" />
     <Compile Include="Assets\Script\Gimmick\ObjectScript\WeightObject1.cs" />
@@ -331,6 +333,12 @@
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>D:/Program Files/2019.4.11f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>D:/Program Files/2019.4.11f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>D:/Program Files/2019.4.11f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:/Program Files/2019.4.11f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

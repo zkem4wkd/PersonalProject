@@ -51,6 +51,7 @@ public class Cannon : MonoBehaviour
                 GameObject bullet = Instantiate(cannon);
                 bullet.transform.position = target.transform.position;
                 bullet.GetComponent<Rigidbody2D>().velocity = (target.transform.position - this.transform.position) * 12f;
+                this.GetComponent<AudioSource>().Play();
                 Destroy(bullet, 10f);
                 Invoke("Delay", 1f);
             }

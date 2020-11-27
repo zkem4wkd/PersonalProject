@@ -89,6 +89,7 @@
     <Compile Include="Assets\Script\Gimmick\ObjectScript\KeyScript.cs" />
     <Compile Include="Assets\Script\Gimmick\ObjectScript\Lever.cs" />
     <Compile Include="Assets\Script\Gimmick\ObjectScript\MoveGround.cs" />
+    <Compile Include="Assets\Script\Gimmick\ObjectScript\NumberTree.cs" />
     <Compile Include="Assets\Script\Gimmick\ObjectScript\OutOfWorld.cs" />
     <Compile Include="Assets\Script\Gimmick\ObjectScript\SamePuzzle.cs" />
     <Compile Include="Assets\Script\Gimmick\ObjectScript\SamePuzzleManager.cs" />
@@ -96,6 +97,7 @@
     <Compile Include="Assets\Script\Gimmick\ObjectScript\TeleportScript.cs" />
     <Compile Include="Assets\Script\Gimmick\ObjectScript\TowerScript.cs" />
     <Compile Include="Assets\Script\Gimmick\ObjectScript\TrampolineScript.cs" />
+    <Compile Include="Assets\Script\Gimmick\ObjectScript\TreeCristal.cs" />
     <Compile Include="Assets\Script\Gimmick\ObjectScript\TreeFire.cs" />
     <Compile Include="Assets\Script\Gimmick\ObjectScript\UpDraft.cs" />
     <Compile Include="Assets\Script\Gimmick\ObjectScript\WeightObject.cs" />

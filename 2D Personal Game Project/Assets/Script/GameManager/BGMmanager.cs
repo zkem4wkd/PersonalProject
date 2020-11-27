@@ -32,15 +32,15 @@ public class BGMmanager : MonoBehaviour
     private void OnEnable()
     {
         GameController gC = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
-        if (gC.worldTime > 6 && gC.worldTime < 17)
+        if (gC.worldTime > 6 && gC.worldTime < 13)
         {
             this.GetComponent<AudioSource>().clip = audios[0];
         }
-        else if (gC.worldTime >= 17 && gC.worldTime < 20)
+        else if (gC.worldTime >= 13 && gC.worldTime < 17)
         {
             this.GetComponent<AudioSource>().clip = audios[1];
         }
-        else if (gC.worldTime >= 20 || gC.worldTime <= 6)
+        else if (gC.worldTime >= 17 || gC.worldTime <= 6)
         {
             this.GetComponent<AudioSource>().clip = audios[2];
         }

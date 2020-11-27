@@ -12978,7 +12978,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uCD08\uC6D0"
+  m_text: "\uBC14\uC704\uC0B0"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ff9ae525d83de454b983278ed77da415, type: 2}
   m_sharedMaterial: {fileID: 7364524807773276207, guid: ff9ae525d83de454b983278ed77da415,
@@ -22087,7 +22087,7 @@ GameObject:
   - component: {fileID: 2048544659}
   - component: {fileID: 2048544658}
   m_Layer: 5
-  m_Name: "\uCD08\uC6D0"
+  m_Name: "\uBC14\uC704\uC0B0"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22177,7 +22177,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 875e6a19c61c0a5458b4c16ff77744b7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 825b98ca6f729af49831d8b5a9467136, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

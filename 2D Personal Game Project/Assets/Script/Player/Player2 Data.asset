@@ -14,6 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerName: "\uC81C\uB098\uB514\uC544"
   playerNumber: 2
-  playerElement: 2
+  playerElement: 1
   jumpCount: 1
-  playerWeight: 2

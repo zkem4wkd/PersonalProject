@@ -7323,7 +7323,7 @@ PrefabInstance:
     - target: {fileID: 3126091951328766824, guid: 1264ebf4b1d9ed243a5b788d40915078,
         type: 3}
       propertyPath: nextScene.m_Handle
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7754604044109083728, guid: 1264ebf4b1d9ed243a5b788d40915078,
         type: 3}

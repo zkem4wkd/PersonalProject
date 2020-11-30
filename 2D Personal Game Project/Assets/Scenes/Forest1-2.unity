@@ -5609,7 +5609,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 24, y: 0.000024438}
+  m_AnchoredPosition: {x: 24, y: 9.9}
   m_SizeDelta: {x: 520.72974, y: 52.813416}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1197795770
@@ -5631,7 +5631,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uBAA9\uD45C : \uC5F4\uC1E0\uB85C \uBB38\uC744 \uAC1C\uBC29\uD558\uC138\uC694."
+  m_text: "\uB300\uD3EC\uB97C \uC3F4 \uBAA9\uD45C\uB97C \uB9DE\uCD94\uC138\uC694.\n\uBC29\uD5A5\uD0A4
+    \u2191 \u2193 / \uBC1C\uC0AC F"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ff9ae525d83de454b983278ed77da415, type: 2}
   m_sharedMaterial: {fileID: 7364524807773276207, guid: ff9ae525d83de454b983278ed77da415,
@@ -5659,8 +5660,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 32
+  m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7006,7 +7007,7 @@ PrefabInstance:
     - target: {fileID: 1359043467327952006, guid: 8078375a4317dad418e1d227e09db225,
         type: 3}
       propertyPath: m_SortingOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1359043467327952006, guid: 8078375a4317dad418e1d227e09db225,
         type: 3}
@@ -9155,6 +9156,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1321985258493762068, guid: 0ab1d7bc3ba2b21468b768ac06fe97eb,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1321985258493762069, guid: 0ab1d7bc3ba2b21468b768ac06fe97eb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9729,7 +9735,8 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5175651097842246357, guid: 5f806df2877c13147b569b0cbdf09117, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 5f806df2877c13147b569b0cbdf09117, type: 3}
 --- !u!1 &718048828497109663 stripped
 GameObject:
@@ -9750,7 +9757,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextScene:
-    m_Handle: 10
+    m_Handle: 11
 --- !u!95 &718048828497109665 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 2792887782292843422, guid: 5f806df2877c13147b569b0cbdf09117,

@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/StartScene.unity
+    guid: 23ce2e03f08358c4692c2da9dc2cb9ec
+  - enabled: 1
     path: Assets/Scenes/TutorialStage.unity
     guid: 3352e4e82effcb34495f0ea53438bc8c
   - enabled: 1
@@ -50,4 +53,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/grassland1-2.unity
     guid: dc893f5a3338cbf49b48385daaf422a9
+  - enabled: 1
+    path: Assets/Scenes/grassland1-3.unity
+    guid: b7922e6b85d67974f83c90dfee495f35
   m_configObjects: {}

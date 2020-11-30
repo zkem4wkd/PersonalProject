@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -9909,12 +9909,12 @@ PrefabInstance:
     - target: {fileID: 2929766483222839395, guid: 847457d28304fca458b13a58d51c1bef,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 27.36
+      value: 27.73
       objectReference: {fileID: 0}
     - target: {fileID: 2929766483222839395, guid: 847457d28304fca458b13a58d51c1bef,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.37
+      value: -7.5
       objectReference: {fileID: 0}
     - target: {fileID: 2929766483222839395, guid: 847457d28304fca458b13a58d51c1bef,
         type: 3}
@@ -9964,17 +9964,17 @@ PrefabInstance:
     - target: {fileID: 2929766483222839395, guid: 847457d28304fca458b13a58d51c1bef,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.27946153
+      value: 0.37927917
       objectReference: {fileID: 0}
     - target: {fileID: 2929766483222839395, guid: 847457d28304fca458b13a58d51c1bef,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.27946153
+      value: 0.37927917
       objectReference: {fileID: 0}
     - target: {fileID: 2929766483222839395, guid: 847457d28304fca458b13a58d51c1bef,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.27946153
+      value: 0.37927917
       objectReference: {fileID: 0}
     - target: {fileID: 2929766483222839405, guid: 847457d28304fca458b13a58d51c1bef,
         type: 3}
@@ -9982,6 +9982,11 @@ PrefabInstance:
       value: WindStone
       objectReference: {fileID: 0}
     - target: {fileID: 2929766483222839405, guid: 847457d28304fca458b13a58d51c1bef,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2929766483811687700, guid: 847457d28304fca458b13a58d51c1bef,
         type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -11442,7 +11447,8 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5175651097842246357, guid: 5f806df2877c13147b569b0cbdf09117, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 5f806df2877c13147b569b0cbdf09117, type: 3}
 --- !u!1 &1085378463 stripped
 GameObject:
@@ -11469,7 +11475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextScene:
-    m_Handle: 12
+    m_Handle: 13
 --- !u!1 &1111910601
 GameObject:
   m_ObjectHideFlags: 0
@@ -12132,6 +12138,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1359043467327952006, guid: 8078375a4317dad418e1d227e09db225,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1359043467327952007, guid: 8078375a4317dad418e1d227e09db225,
         type: 3}
       propertyPath: m_Name
@@ -14915,7 +14926,7 @@ PrefabInstance:
     - target: {fileID: 3126091951328766824, guid: 1264ebf4b1d9ed243a5b788d40915078,
         type: 3}
       propertyPath: nextScene.m_Handle
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 7754604044109083731, guid: 1264ebf4b1d9ed243a5b788d40915078,
         type: 3}

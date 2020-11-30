@@ -3284,7 +3284,7 @@ PrefabInstance:
     - target: {fileID: 3126091951328766824, guid: 1264ebf4b1d9ed243a5b788d40915078,
         type: 3}
       propertyPath: nextScene.m_Handle
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7754604044109083731, guid: 1264ebf4b1d9ed243a5b788d40915078,
         type: 3}
@@ -13158,7 +13158,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1837401953}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 17.639996, y: -3.9099998, z: -10}
+  m_LocalPosition: {x: -2.570005, y: -5.25, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

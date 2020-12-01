@@ -6705,6 +6705,8 @@ MonoBehaviour:
   waterBall: {fileID: 114884687}
   fireBall: {fileID: 1778894900}
   windBall: {fileID: 1910337256}
+  mouseEffect: {fileID: 3256200118481731212, guid: dc76dea2b3a20a545ab8cc521c4fce34,
+    type: 3}
 --- !u!1 &1989045120
 GameObject:
   m_ObjectHideFlags: 0

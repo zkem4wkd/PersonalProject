@@ -6589,6 +6589,8 @@ MonoBehaviour:
   waterBall: {fileID: 438757448}
   fireBall: {fileID: 182721302}
   windBall: {fileID: 1845909886}
+  mouseEffect: {fileID: 3256200118481731212, guid: dc76dea2b3a20a545ab8cc521c4fce34,
+    type: 3}
 --- !u!114 &1242256530
 MonoBehaviour:
   m_ObjectHideFlags: 0

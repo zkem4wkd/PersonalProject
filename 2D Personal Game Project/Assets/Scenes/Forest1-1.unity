@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -8014,6 +8014,8 @@ MonoBehaviour:
   waterBall: {fileID: 650118092}
   fireBall: {fileID: 957110115}
   windBall: {fileID: 287323639}
+  mouseEffect: {fileID: 3256200118481731212, guid: dc76dea2b3a20a545ab8cc521c4fce34,
+    type: 3}
 --- !u!114 &207274277
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -19,10 +19,11 @@ public class ElementBall : MonoBehaviour
     public Button waterBall;
     public Button fireBall;
     public Button windBall;
+    public GameObject mouseEffect;
+    GameObject effect;
     Vector2 pos;
     RaycastHit2D rHit;
     bool clickOn = false;
-
     private void OnEnable()
     {
         coolDown.gameObject.SetActive(false);
@@ -77,26 +78,43 @@ public class ElementBall : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0) && clickOn == true)
         {
+            Destroy(effect);
             clickOn = false;
             pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             rHit = Physics2D.Raycast(pos, Vector2.zero);
+            effect = Instantiate(mouseEffect);
+            Cursor.visible = false;
             if(rHit.collider.CompareTag("Land"))
             {
                 rockBall.gameObject.SetActive(true);
+                Cursor.visible = true;
+                Destroy(effect);
             }
             else if (rHit.collider.CompareTag("Water"))
             {
                 waterBall.gameObject.SetActive(true);
+                Cursor.visible = true;
+                Destroy(effect);
             }
             else if (rHit.collider.CompareTag("Fire"))
             {
                 fireBall.gameObject.SetActive(true);
+                Cursor.visible = true;
+                Destroy(effect);
             }
             else if (rHit.collider.CompareTag("Wind"))
             {
                 windBall.gameObject.SetActive(true);
+                Cursor.visible = true;
+                Destroy(effect);
             }
+            Invoke("MouseDelay", 10f);
         }
+    }
+    void MouseDelay()
+    {
+        Destroy(effect);
+        Cursor.visible = true;
     }
     public void CoolTime()
     {

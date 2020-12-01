@@ -10,6 +10,13 @@ public class ChangePlayer : PlayerScript
     public GameObject player3;
     public GameObject player4;
     public CinemachineVirtualCamera vCam;
+    private void Start()
+    {
+        if(Cursor.visible == false)
+        {
+            Cursor.visible = true;
+        }
+    }
     public void PlayerChange1()
     {
         PlayerMove player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMove>();

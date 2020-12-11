@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -2905,8 +2905,8 @@ PlayableDirector:
     value: {fileID: 1497087051}
   - key: {fileID: 9010338235396957036, guid: 5eeec53775338e448a5f1cafd45b1881, type: 2}
     value: {fileID: 1444682213}
-  - key: {fileID: -6630185319319207804, guid: 5eeec53775338e448a5f1cafd45b1881, type: 2}
-    value: {fileID: 2075578526}
+  - key: {fileID: -7223176683542535248, guid: 5eeec53775338e448a5f1cafd45b1881, type: 2}
+    value: {fileID: 2075578530}
   m_ExposedReferences:
     m_References: []
 --- !u!82 &202140826
@@ -3689,7 +3689,7 @@ Camera:
   far clip plane: 5000
   field of view: 40
   orthographic: 1
-  orthographic size: 3
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -3713,7 +3713,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 351328674}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.31035, y: -1.330263, z: -10}
+  m_LocalPosition: {x: 40.47, y: -0.86, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -11191,7 +11191,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 883162758}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.57, y: -1.3299999, z: -10}
+  m_LocalPosition: {x: -0.09000015, y: -1.3299999, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1351070451}
@@ -16165,10 +16165,10 @@ PlayableDirector:
     value: {fileID: 1327822845}
   - key: {fileID: 550473508408466809, guid: ec44d52999bb7f34f8f1581df26ff518, type: 2}
     value: {fileID: 1505435166}
-  - key: {fileID: 4533158889967634248, guid: ec44d52999bb7f34f8f1581df26ff518, type: 2}
-    value: {fileID: 2075578526}
   - key: {fileID: -4770358457755410435, guid: ec44d52999bb7f34f8f1581df26ff518, type: 2}
     value: {fileID: 1444682213}
+  - key: {fileID: -100064823169281041, guid: ec44d52999bb7f34f8f1581df26ff518, type: 2}
+    value: {fileID: 2075578530}
   m_ExposedReferences:
     m_References: []
 --- !u!82 &1444682215
@@ -22047,6 +22047,7 @@ MonoBehaviour:
   waterBall: {fileID: 114884687}
   fireBall: {fileID: 1778894900}
   windBall: {fileID: 1910337256}
+  mouseEffect: {fileID: 0}
 --- !u!1 &1989045120
 GameObject:
   m_ObjectHideFlags: 0
@@ -22643,6 +22644,7 @@ GameObject:
   - component: {fileID: 2075578529}
   - component: {fileID: 2075578528}
   - component: {fileID: 2075578527}
+  - component: {fileID: 2075578530}
   m_Layer: 0
   m_Name: billageBGM
   m_TagString: BGM
@@ -22777,6 +22779,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2075578530
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075578526}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2118653409
 GameObject:
   m_ObjectHideFlags: 0

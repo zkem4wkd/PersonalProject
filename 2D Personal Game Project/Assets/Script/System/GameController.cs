@@ -20,6 +20,7 @@ public class GameController : MonoBehaviour
         filePath = Application.dataPath + "/Uk.bin";
         Load();
     }
+
     public void Save()
     {
         data = new SaveData(worldTime);
